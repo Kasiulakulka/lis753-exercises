@@ -1,1 +1,3 @@
-# lis753-exercises
+# LIS753 Exercise
+A simple edit.
+Another edit.
