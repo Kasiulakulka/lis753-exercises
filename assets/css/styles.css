@@ -22,6 +22,9 @@ blockquote {
   background-color: #f9f9f9;
 }
 
+.caption {
+  font-style: italic;
+}
 a {
   color: #E54F6D;
 }
