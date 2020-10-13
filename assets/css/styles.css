@@ -20,6 +20,11 @@ blockquote {
   border-left: 4px solid #D18F23;
   padding: 12px;
   background-color: #f9f9f9;
+  margin-left: 0;
+}
+
+.image {
+  text-align: center;
 }
 
 .caption {
@@ -32,4 +37,8 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+ul {
+  padding-left: 20px;
 }
