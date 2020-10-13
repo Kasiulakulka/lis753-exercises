@@ -1,6 +1,7 @@
 body {
   background-color: #DBD4D3;
   font-family: arial, sans-serif;
+  color: #393F41;
 }
 
 .wrapper {
@@ -8,10 +9,17 @@ body {
   width: 92%;
   max-width: 800px;
   margin: 0 auto;
+  padding: 12px 20px;
 }
 
 h1, h2 {
-  color: #1D7874;
+  color: #820F0D;
+}
+
+blockquote {
+  border-left: 4px solid #D18F23;
+  padding: 12px;
+  background-color: #f9f9f9;
 }
 
 a {
