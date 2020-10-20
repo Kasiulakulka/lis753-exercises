@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-  background: #ffffff;
+  background-color: #ffffff;
   width: 92%;
   max-width: 800px;
   margin: 0 auto;
@@ -57,4 +57,17 @@ ul {
 
 p {
   line-height:1.4em;
+}
+
+header {
+  background-image: url(../images/spikes.png);
+  border-bottom: 1px solid #b7a9a7;
+  text-align: center;
+}
+
+footer.wrapper {
+  background-image: url(../images/spikes.png);
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 2px solid #b7a9a7;
 }
