@@ -59,14 +59,16 @@ p {
   line-height:1.4em;
 }
 
-header {
+header, footer.wrapper {
   background-image: url(../images/spikes.png);
+}
+
+header {
   border-bottom: 1px solid #b7a9a7;
   text-align: center;
 }
 
 footer.wrapper {
-  background-image: url(../images/spikes.png);
   text-align: center;
   padding: 40px 20px;
   border-top: 2px solid #b7a9a7;
