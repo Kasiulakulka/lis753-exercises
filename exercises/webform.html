@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Contact Us</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
   </head>
   <body>
     <h1>Contact Us</h1>
@@ -11,7 +12,33 @@
           <input type="text" id="fname" name="fname"><br>
           <label for="lname">Last name:</label><br>
           <input type="text" id="lname" name="lname">
+
+          <p>Which language do you prefer?</p>
+          <input type="radio" id="english" name="language" value="english">
+          <label for="english">English</label><br>
+          <input type="radio" id="spanish" name="language" value="spanish"
+          <label for="spanish">Spanish</label><br>
+          <input type="radio" id="polish" name="language" value="polish">
+          <label for="polish">Polish</label>
+
+          <p>Reason for contacting us:</p>
+          <input type="checkbox" id="question" name="question" value="question">
+          <label for="vehicle1"> I have a question</label><br>
+          <input type="checkbox" id="comment" name="comment" value="comment">
+          <label for="vehicle2"> I have a comment</label><br>
+          <input type="checkbox" id="conmplaint" name="complaint" value="complaint">
+          <label for="vehicle3"> I have a complaint</label>
+
+          <p>What are you contacting us about?</p>
+          <textarea name="message" rows="5" cols="20">
+          </textarea>
+
+          <p>Thank you for reaching out! Someone will respond within 24 hours.</p>
+          <form action="/action_page.php">
+          <input type="submit" value="Submit">
+          </form>
       </form>
 
-      </body>
+
+  </body>
 </html>
